@@ -1,11 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-<<<<<<< HEAD
     <OutputType>Exe</OutputType>
-=======
-    <OutputType>WinExe</OutputType>
->>>>>>> bb9c3dc0d3ae9ddba25cdc057c192a20d445a0bb
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>

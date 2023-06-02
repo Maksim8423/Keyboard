@@ -4,18 +4,13 @@ namespace Keyboard
 {
     public partial class Form1 : Form
     {
-<<<<<<< HEAD
         bool flag = false, Caps = false;
 
-=======
-        
->>>>>>> bb9c3dc0d3ae9ddba25cdc057c192a20d445a0bb
         public Form1()
         {
             InitializeComponent();
         }
 
-<<<<<<< HEAD
         public void Input(object sender, EventArgs e)
         {
 
@@ -75,61 +70,6 @@ namespace Keyboard
                 this.Field.Text += button.Text;
 
             }
-=======
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Field.Text = "q";
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button25_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button26_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button33_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Field_TextChanged(object sender, EventArgs e)
-        {
-            
->>>>>>> bb9c3dc0d3ae9ddba25cdc057c192a20d445a0bb
         }
     }
 }
